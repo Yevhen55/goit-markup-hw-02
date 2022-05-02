@@ -7,10 +7,32 @@
 /* мыло  телефон  футер rgba(255, 255, 255, 0.6)  адресс #FFFFFF*/
 /* цвет фона кнопок фильтра #F5F4FA */
 /* цвет кнопок и активных ссылок при наведении #2196F3 */
-:root {--primary-text-color:#212121;
-    --color-body-fon: #E5E5E5; 
+:root {--primary-text-color:#212121; 
     --second-text-color:#757575 ;
-    
+    --focus-hover-active-color:#2196F3;
+    --fon-main-color:#E5E5E5 ;
+    --bcg-btn-filtrs:#F5F4FA ;
  }
-.header .a { color: #212121  }
-.ul {syle-list :none;}
+
+ul {list-style :none;}
+/* разметка хедера  */
+header .link {color:var(--primary-text-color);}
+.auth-nav a {color:var(--second-text-color);}
+header .link:hover, 
+header .link:focus,
+header .link.current {color:var(--focus-hover-active-color);}
+.nav-page .link:hover,.nav-page .link:focus,
+.nav-page .link.current{color:var(--focus-hover-active-color);}
+
+h1,
+h2 {
+    opacity: 0;
+}
+/* мєйн */
+main  {color:var(--primary-text-color)}
+main .list-btn {background-color: var(--bcg-btn-filtrs);} 
+section .link-title { ;}
+main .descripion{color:var(--second-text-color)}
+
+/* футер  */
+footer {background-color:#2F303A ;}
