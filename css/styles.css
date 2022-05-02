@@ -12,27 +12,98 @@
     --focus-hover-active-color:#2196F3;
     --fon-main-color:#E5E5E5 ;
     --bcg-btn-filtrs:#F5F4FA ;
+    --btn-focus:#FFFFFF;
  }
 
 ul {list-style :none;}
 /* разметка хедера  */
-header .link {color:var(--primary-text-color);}
-.auth-nav a {color:var(--second-text-color);}
+header .logo{Font-family: Raleway; 
+    Font-style:700 ;
+    Font-size: 26px ;
+    Line-height: 31px;}
+
+header .link {
+    color:var(--primary-text-color);
+     
+     font-family: Roboto;
+     font-weight: 500;
+     font-size:14px;
+     Line-height:1.14;
+     
+    
+}
+
+.auth-nav a {
+    color:var(--second-text-color);
+    font-family: Roboto;
+    font-weight: 500;
+    font-size:14px;
+    Line-height:1.14;
+}
+
 header .link:hover, 
 header .link:focus,
 header .link.current {color:var(--focus-hover-active-color);}
-.nav-page .link:hover,.nav-page .link:focus,
-.nav-page .link.current{color:var(--focus-hover-active-color);}
 
 h1,
 h2 {
     opacity: 0;
 }
 /* мєйн */
+
 main  {color:var(--primary-text-color)}
-main .list-btn {background-color: var(--bcg-btn-filtrs);} 
-section .link-title { ;}
-main .descripion{color:var(--second-text-color)}
+h3 {font-family: Roboto ;
+     font-weight: 700; 
+     font-size: 18px; 
+     Line-height: 2; 
+     
+    
+}
+
+main .list-btn {background-color: var(--bcg-btn-filtrs)
+
+
+
+} 
+button{font-family: Roboto;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;}
+
+button:hover,button:focus {color:var(--btn-focus);background-color:var(--focus-hover-active-color);}
+
+main .descripion{color:var(--second-text-color);
+    font-family: Roboto; 
+    font-weight: 400; 
+    font-size: 16px ;
+    line-height: 1.87;
+
+
+}
 
 /* футер  */
-footer {background-color:#2F303A ;}
+footer {background-color:#2F303A ;
+
+}
+address {
+
+
+
+    display: block;
+
+
+
+    font-style: italic;
+
+
+}
+
+
+footer a {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+
