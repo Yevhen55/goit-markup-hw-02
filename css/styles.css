@@ -22,7 +22,7 @@ header .logo{Font-family: Raleway;
     Font-size: 26px ;
     Line-height: 31px;}
 
-header .link {
+ header .link {
     color:var(--primary-text-color);
      
      font-family: Roboto;
