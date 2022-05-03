@@ -18,9 +18,12 @@
 ul {list-style :none;}
 /* разметка хедера  */
 header .logo{Font-family: Raleway; 
-    Font-style:700 ;
-    Font-size: 26px ;
-    Line-height: 31px;}
+     Font-style:700;
+     Font-size: 26px ;
+     Line-height: 31px;}
+
+.acent-logo{color:var(--focus-hover-active-color)}
+.logo{color:var(--primary-text-color)}
 
  header .link {
     color:var(--primary-text-color);
@@ -59,6 +62,12 @@ h3 {font-family: Roboto ;
      
     
 }
+main p {Font-family: Roboto ;
+    Font-style: 400;
+    Font-size: 14px ;
+    Line-height: 1.70;
+color:var(--second-text-color)
+}
 
 main .list-btn {background-color: var(--bcg-btn-filtrs)
 
@@ -86,16 +95,8 @@ footer {background-color:#2F303A ;
 
 }
 address {
-
-
-
-    display: block;
-
-
-
-    font-style: italic;
-
-
+display: block;
+font-style: italic;
 }
 
 
@@ -105,5 +106,5 @@ footer a {
     font-size: 14px;
     line-height: 1.71;
 }
-
+.footer-list .item-map{color:var(--btn-focus)}
 
