@@ -11,7 +11,6 @@
     --second-text-color:#757575 ;
     --focus-hover-active-color:#2196F3;
     --fon-main-color:#E5E5E5 ;
-    --bcg-btn-filtrs:#F5F4FA ;
     --btn-focus:#FFFFFF;
  }
 
@@ -86,7 +85,7 @@ main .descripion{color:var(--second-text-color);
     font-weight: 400; 
     font-size: 16px ;
     line-height: 1.87;
-
+    
 
 }
 
