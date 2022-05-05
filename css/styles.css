@@ -93,16 +93,21 @@ color: var(--second-text-color);
 .footer {
     background-color: var(--fon-footer-h1);
 }
+.footer {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
 
-
-
- 
-  .footer .map {  
-    color: var(--text-footer-textbtn);
+.footer .item {
+    color: var(--mail-tel);
 }
 
 
-.item :last-child {
+.link :last-child {
     color: var(--mail-tel);
     text-decoration: none;
 
@@ -110,4 +115,7 @@ color: var(--second-text-color);
 
 .footer .map {
     color: var(--text-footer-textbtn)
- } 
+}
+
+ 
+ 
