@@ -88,7 +88,7 @@ line-height: 1.87;
 letter-spacing: 0.03em;
 color: var(--second-text-color);
 } 
-
+.main .wh {color: var(--text-footer-textbtn);}
 /* footer */
 .footer {
     background-color: var(--fon-footer-h1);
