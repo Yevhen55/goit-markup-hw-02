@@ -29,7 +29,7 @@ text-decoration:none;
 
 .body-list {color:var(--primary-text-color);}
 /* навигация */
-.link {
+.link { 
     text-decoration: none;
     color: inherit;
 }
@@ -103,7 +103,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
-text-align: center;
+
 letter-spacing: 0.03em;}
 
 .list .descripion {font-family: 'Roboto';
@@ -113,7 +113,7 @@ font-size: 16px;
 line-height: 1.18;
 
 
-text-align: center;
+
 letter-spacing: 0.03em;
 color:var(--second-text-color);}
 
@@ -128,14 +128,15 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;}
-.footer-list .item {color:var(--mail-tel) ;}
+.footer .link {color:var(--mail-tel) ;}
 
 
-.link :last-child {
+ .link :last-child { 
     color: var(--mail-tel);
     text-decoration: none;
 
 }
+ .footer .map {color:var(--text-footer-textbtn)}
 
 
 
