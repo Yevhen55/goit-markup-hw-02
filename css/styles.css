@@ -28,7 +28,7 @@ ul {list-style :none;}
 }
 .logo .acent-logo {color:var(--focus-hover-active-color);}
 .logo {color:var(--primary-text-color);}
-
+.logo-footer {color: var(--text-footer-textbtn);}
 .body-list {
     color:var(--primary-text-color);
 }
@@ -68,7 +68,7 @@ font-size: 16px;
 line-height: 1.62 ;
 letter-spacing: 0.03em;
 color:var(--primary-text-color) }
-
+.list-btn .btn {cursor: pointer; }
 .btn:hover , 
 .btn:focus {background-color:var(--focus-hover-active-color);
     color:var(--text-footer-textbtn)}
@@ -81,8 +81,7 @@ line-height: 2;
 letter-spacing: 0.06em;}    
 
 .list .descripion {font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
+
 font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
@@ -95,8 +94,7 @@ color: var(--second-text-color);
 }
 .footer {
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+   
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -116,7 +114,7 @@ color: var(--second-text-color);
 .footer .map {
     color: var(--text-footer-textbtn)
 }
-
+/* студия  */
  /* btn */
  .section-btn {
      background-color: var(--fon-footer-h1);
@@ -174,8 +172,7 @@ color: var(--second-text-color);
 
  .list .list-list {
      font-family: 'Roboto';
-     font-style: normal;
-     font-weight: 400;
+    
      font-size: 14px;
      line-height: 1.71;
      letter-spacing: 0.03em;
