@@ -17,7 +17,7 @@
 ul {list-style :none;}
 /* разметка хедера  */
 /*логотип  */
-.logo {
+.logo{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -114,6 +114,10 @@ color: var(--second-text-color);
 .footer .map {
     color: var(--text-footer-textbtn)
 }
+
+
+
+
 /* студия  */
  /* btn */
  .section-btn {
