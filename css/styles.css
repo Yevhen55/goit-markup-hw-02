@@ -52,8 +52,10 @@ ul {list-style :none;}
 
 .auth-nav .link {
     color: var(--second-text-color);
+    
 }
-
+.auth-nav { margin-top: 0;
+    margin-bottom: 0; }
 
 /* btn */
 /* button {
@@ -133,8 +135,10 @@ color: var(--second-text-color);
      text-align: center;
      letter-spacing: 0.06em;
      text-transform: uppercase;
-     color: var(--text-footer-textbtn)
+     color: var(--text-footer-textbtn);
+    
  }
+ .text { margin-top: 0 ; margin-bottom: 30px ;}
 
  .section-btn .btn {
      font-family: 'Roboto';
@@ -146,11 +150,11 @@ color: var(--second-text-color);
      align-items: center;
      text-align: center;
      letter-spacing: 0.06em;
-
      color: var(--text-footer-textbtn);
      background-color: var(--focus-hover-active-color);
  }
-
+ 
+.section-btn .btn { margin-right: auto; margin-left: auto;}
  /* benefits */
 
  .text-section {
@@ -163,7 +167,11 @@ color: var(--second-text-color);
      letter-spacing: 0.03em;
      color: var(--text-footer-textbtn);
  }
+ .text-section {margin-top: 0 ; margin-bottom: 0 ;
+height: 94px;}
 
+ /* сброс всех маржинов на юл  */
+ 
  .list .section-list {
      font-family: 'Roboto';
      font-style: normal;
@@ -173,6 +181,13 @@ color: var(--second-text-color);
      letter-spacing: 0.03em;
      text-transform: uppercase;
  }
+ .list {
+     margin-top: 0;
+     margin-bottom: 0;
+ }
+.section-list {margin-top: 0 ; margin-bottom: 10px;}
+.container { width: 1170px ; margin-bottom: 94px; }
+.list .li {width: 270px;}
 
  .list .list-list {
      font-family: 'Roboto';
@@ -182,8 +197,17 @@ color: var(--second-text-color);
      letter-spacing: 0.03em;
      color: var(--second-text-color);
  }
+.list-list {margin-bottom: 0 ; margin-top: 0;}
+.benefits {
+    margin-bottom: 94px
+}
+.text-section-st {margin-top: 0; margin-bottom: 50px;}
+
+
+
 
  /* team */
+ 
  .team .team-name {
      font-family: 'Roboto';
      font-style: normal;
