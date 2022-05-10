@@ -17,11 +17,11 @@
     color: inherit;
 }
 ul {list-style :none;}
-/* button {
+ /* .btn { */
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-}*/
+}
 
 .do {
     width: 1600px;
@@ -103,6 +103,10 @@ ul {list-style :none;}
 
 
 /* btn pornfolio */
+.list-btn {width: 1200px; display: flex;padding-left: 15px;padding-right: 15px;}
+.list-btn {margin-right: auto;margin-left: auto; margin-top: 0; margin-bottom: 0;  } 
+.btn {border-radius: 4px; border-color: initial;} 
+.list-btn .libt + .libt {margin-left: 8px;}
 
 .list-btn {font-family: 'Roboto';
 font-style: normal;
@@ -115,20 +119,26 @@ color:var(--primary-text-color) }
 
 .btn:hover , 
 .btn:focus {background-color:var(--focus-hover-active-color);
-    color:var(--text-footer-textbtn)}
+    color:var(--text-footer-textbtn); border-color:var(--focus-hover-active-color);}
  
     /* станция сортировка ))) */
 .wh {margin-top: 0; margin-bottom: 0; height: 50px;}
-.menu {width: 1200px;padding-left: 15px;
-padding-right: 15px;margin-left: auto; margin-right: auto;}
-.filt {padding-left: 0;margin-top: 0;}
+
+.filt {padding-left: 0;margin-top: 0;margin-bottom: 94px;}
 .filt {display: flex;flex-wrap: wrap;
 }
-.filt .item {width: 370px;
+.filt .item {width: 370px; margin-right: 30px; margin-bottom:30px ;
 }
-.filt .item :nth-child(3n) {margin-right: 0;}
+ 
+.item:nth-child(3n) {margin-right: 0;}
+.item:nth-last-child(-n + 3) {margin-bottom: 0;}
+.link-title {margin-top: 20px;margin-bottom: 4px; margin-left: 24px;}
+.descripion {margin-left: 24px; margin-bottom: 20px; margin-top: 0;}
 
- .list .link-title {font-family: 'Roboto'; 
+
+
+
+.list .link-title {font-family: 'Roboto'; 
 font-style: normal;
 font-weight: 700;
 font-size: 18px;
