@@ -146,32 +146,30 @@ color: var(--second-text-color);
 
 /* footer */
 
- .logo-footer {padding-top: 0; padding-bottom: 0; margin-right: 0;}
-.footer {
+ .logo-footer {padding-top: 0; padding-bottom: 0; margin-right: 0; 
+margin-top: 60px;}
+.footer-list {padding-right: 0; margin-top: 0 ; padding-left: 0;}
+.contact {padding-top: 0;padding-bottom: 0;}
+ .footer {
     background-color: var(--fon-footer-h1);
 }
+.footer-list {font-style: initial;margin-top: 20px;margin-bottom: 0;}
+.footer  {padding-bottom: 60px;}
+.ct {margin-top: 9px;}
+
 .footer {
     font-family: 'Roboto';
-   
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
-.footer .item {
-    color: var(--mail-tel);
-}
+ .link-footer .contact {text-decoration: none;}
+.map :first-child { color:var(--text-footer-textbtn); }
+.ct .contact {color:var(--second-text-color)}
 
 
-.link :last-child {
-    color: var(--mail-tel);
-    text-decoration: none;
 
-}
-
-.footer .map {
-    color: var(--text-footer-textbtn)
-}
 
 
 
@@ -260,12 +258,18 @@ color: var(--second-text-color);
 
 }
 
+.text-section-st {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
 
+}
 .list {
-    width: 1200px;
-    ;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 0;
+    padding-left: 0;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: auto;
