@@ -23,8 +23,10 @@ ul {list-style :none;}
     appearance: none;
 }*/
 
-
-
+.do {
+    width: 1600px;
+}
+.container {width: 1200px;padding-left: 15px;padding-right: 15px;}
 /* разметка хедера  */
 /*логотип  */
 .logo {margin-right: 93px;}
@@ -81,8 +83,7 @@ ul {list-style :none;}
     letter-spacing: 0.02em;
     
 }
-.header-list {border: 1px solid tomato;
-} 
+
 .auth-nav {margin-left: 331px;}
 .link {padding-top: 32px;
     padding-bottom: 32px;}
@@ -97,10 +98,11 @@ ul {list-style :none;}
     
 }
 .nav {display: flex;align-items: center;
-padding-left: 15px;padding-right: 15px;}
+}
 
 
-/* btn */
+
+/* btn pornfolio */
 
 .list-btn {font-family: 'Roboto';
 font-style: normal;
@@ -141,7 +143,10 @@ letter-spacing: 0.03em;
 color: var(--second-text-color);
 } 
 .main .wh {color: var(--text-footer-textbtn);}
+
 /* footer */
+
+ .logo-footer {padding-top: 0; padding-bottom: 0; margin-right: 0;}
 .footer {
     background-color: var(--fon-footer-h1);
 }
@@ -172,143 +177,167 @@ color: var(--second-text-color);
 
 
 /* студия  */
- /* btn */
- .section-btn .btn {
-     margin-right: auto;
-     margin-left: auto;
- }
- .text {
-     margin-top: 0;
-     margin-bottom: 30px;
- }
- .section-btn {
-     background-color: var(--fon-footer-h1);
- }
+/* btn */
+.section-btn .btn {
+    margin-right: auto;
+    margin-left: auto;
+}
 
- .text {
-     font-family: 'Roboto';
-     font-style: normal;
-     font-weight: 900;
-     font-size: 44px;
-     line-height: 1.36;
-     text-align: center;
-     letter-spacing: 0.06em;
-     text-transform: uppercase;
-     color: var(--text-footer-textbtn);
-    
- }
- 
+.text {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
 
- .section-btn .btn {
-     font-family: 'Roboto';
-     font-style: normal;
-     font-weight: 700;
-     font-size: 16px;
-     line-height: 1.87;
-     display: flex;
-     align-items: center;
-     text-align: center;
-     letter-spacing: 0.06em;
-     color: var(--text-footer-textbtn);
-     background-color: var(--focus-hover-active-color);
- }
- 
+.section-btn {
+    background-color: var(--fon-footer-h1);
+}
 
- /* benefits */
- 
+.text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-footer-textbtn);
+
+}
+
+
+.section-btn .btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--text-footer-textbtn);
+    background-color: var(--focus-hover-active-color);
+}
+
+
+/* benefits */
+
+
+
+
+.img {
+    margin-left: 30px;
+}
+
+.n {
+    margin-left: 0;
+}
+
 .text-section {
     margin-top: 0;
     margin-bottom: 0;
     height: 94px;
 }
- .list {display: flex; }
- .list .li + .li {margin-left: 30px;}
- .text-section {
-     font-family: 'Roboto';
-     font-style: normal;
-     font-weight: 700;
-     font-size: 36px;
-     line-height: 1.16;
-     text-align: center;
-     letter-spacing: 0.03em;
-     color: var(--text-footer-textbtn);
- }
- 
 
-  .list {
-      margin-top: 0;
-      margin-bottom: 0;
-  }
+.list {
+    display: flex;
+}
 
-  .section-list {
-      margin-top: 0;
-      margin-bottom: 10px;
-  }
+.list .li+.li {
+    margin-left: 30px;margin-bottom: 94px;
+}
 
-  .list .li {
-      width: 270px;
-  }
- .list-list {
-     margin-bottom: 0;
-     margin-top: 0;
- }
+.text-section {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-footer-textbtn);
 
- .benefits {
-     margin-bottom: 94px
- }
-
- .text-section-st {
-     margin-top: 0;
-     margin-bottom: 50px; 
- }
- 
-
- .list .section-list {
-     font-family: 'Roboto';
-     font-style: normal;
-     font-weight: 700;
-     font-size: 14px;
-     line-height: 1.14;
-     letter-spacing: 0.03em;
-     text-transform: uppercase;
- }
+}
 
 
- .list .list-list {
-     font-family: 'Roboto';
-    
-     font-size: 14px;
-     line-height: 1.71;
-     letter-spacing: 0.03em;
-     color: var(--second-text-color);
- }
+.list {
+    width: 1200px;
+    ;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-list {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.list .li {
+    width: 270px;
+}
+
+.list-list {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.benefits {
+    margin-bottom: 94px
+}
+.paint {margin-bottom: 94px;}
+.text-section-st {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+
+.list .section-list {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+
+.list .list-list {
+    font-family: 'Roboto';
+
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color);
+}
+
+
+/* team */
+
+.team .team-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+
+    letter-spacing: 0.03em;
+}
+
+.list .descripion {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
 
 
 
-
-
- /* team */
- 
- .team .team-name {
-     font-family: 'Roboto';
-     font-style: normal;
-     font-weight: 500;
-     font-size: 16px;
-     line-height: 1.18;
-
-     letter-spacing: 0.03em;
- }
-
- .list .descripion {
-     font-family: 'Roboto';
-     font-style: normal;
-     font-weight: 400;
-     font-size: 16px;
-     line-height: 1.18;
-
-
-
-     letter-spacing: 0.03em;
-     color: var(--second-text-color);
- }
- 
+    letter-spacing: 0.03em;
+    color: var(--second-text-color);
+}
