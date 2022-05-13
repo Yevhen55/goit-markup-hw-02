@@ -121,27 +121,39 @@ ul {
 }
 
 /* footer */
+
 .footer {
     background-color: var(--fon-footer-h1);
 }
 
+
 .footer {
     font-family: 'Roboto';
-   
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
+.link-footer .contact {
+    text-decoration: none;
+}
 
-.footer .item {
-    color: var(--mail-tel);
+.map :first-child {
+    color: var(--text-footer-textbtn);
+}
+
+.ct .contact {
+    color: var(--second-text-color)
 }
 
 .link :last-child {
     color: var(--mail-tel);
     text-decoration: none;
 }
-
+.footer-list {
+    font-style: initial;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
 .footer .map {
     color: var(--text-footer-textbtn)
 }
